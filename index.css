@@ -1,0 +1,72 @@
+body{
+    background-color:#509ADB;
+}
+#container
+{
+    width:300px;
+    margin: 0 auto;
+    margin-top: 150px;
+    text-align: center;
+
+}
+#header .logo
+{
+font-size: 50px;
+color: white;
+
+}
+#header h1{
+    font-size: 30px;
+    color: white;
+}
+
+#loginform .containerfields
+{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-radius: 6px;
+    
+}
+ #loginform .containerfields input[type="email"],
+ #loginform .containerfields input[type="password"]
+{
+width: 100%;
+padding: 0;
+text-indent: 20px;
+margin-top: 1px;
+border-radius: 10px;
+font-family: 'Open Sans', sans-serif;
+padding: 20px 0px 20px 0px;
+border: none;
+outline:none;
+}
+#loginform input[type="submit"]
+{
+display: block;
+background-color:#1981D8;
+padding: 14px 0px;
+width: 100%;
+border-radius:6px;
+margin-top: 10px;
+font-size: 20px;
+font-weight: bold;
+font-family:'Open Sans', sans-serif;
+color:white ;
+border:none;
+
+}
+#loginform input[type="submit"]:hover
+{
+cursor: pointer;
+outline: none;
+background-color: black;
+}
+#footer p{
+    color:white;
+    font-size: 19px;
+}
+#footer p a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
